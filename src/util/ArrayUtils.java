@@ -24,7 +24,6 @@ public class ArrayUtils {
         return result;
     }
 
-
     public static int[] toIntArray(String str) {
         Scanner scanner = new Scanner(str);
         scanner.useLocale(Locale.ROOT);
